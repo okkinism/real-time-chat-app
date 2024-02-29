@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.form-container {
+  background-image: linear-gradient(
+    to top,
+    #d16ba5,
+    #c95da8,
+    #bf50ad,
+    #b244b3,
+    #a13bba,
+    #a03cc2,
+    #9e3dca,
+    #9c3ed3,
+    #af47de,
+    #c250e8,
+    #d659f3,
+    #e963fd
+  );
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .form-wrapper {
+    width: 400px;
+    padding: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 4px 8px -1px rgba(0, 0, 0, 0.44);
+    -webkit-box-shadow: 0px 4px 8px -1px rgba(0, 0, 0, 0.44);
+    -moz-box-shadow: 0px 4px 8px -1px rgba(0, 0, 0, 0.44);
+    background-color: #fff;
+
+    button {
+      background-color: #007bff;
+      color: #fff;
+      width: 100%;
+      border: none;
+      border-radius: 5px;
+      padding: 10px;
+      font-size: 16px;
+      cursor: pointer;
+
+      &:hover {
+        background-color: #0069d9;
+      }
+
+      &:active {
+        background-color: #005cbf;
+      }
+    }
+    h1 {
+      font-family: cursive;
+      text-align: center;
+      margin-bottom: 20px;
+      color: #333;
+    }
+
+    span {
+      display: block;
+      text-align: center;
+      margin-bottom: 20px;
+      color: #999;
+    }
+
+    img {
+      width: 10%;
+      border-radius: 5px;
+      margin-bottom: 20px;
+      box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+      cursor: pointer;
+    }
+
+    label {
+      display: flex;
+      align-items: center;
+      margin-bottom: 10px;
+      cursor: pointer;
+    }
+
+    p {
+      text-align: center;
+      margin: 20px 0;
+      color: #999;
+    }
+
+    a {
+      color: #007bff;
+      text-decoration: none;
+    }
+    
+    a:hover {
+      text-decoration: underline;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      input {
+        width: 100%;
+        padding: 10px;
+        font-size: 16px;
+        margin-bottom: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+
+        &:focus {
+          outline: none;
+          border-color: #007bff;
+          box-shadow: 0px 0px 5px rgba(0, 123, 255, 0.3);
+        }
+      }
+    }
+  }
+}
