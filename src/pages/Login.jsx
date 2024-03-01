@@ -5,7 +5,7 @@ const Login = () => {
     <div className="form-container">
       <div className="form-wrapper">
         <h1>ChatFlow</h1>
-        <p>Login</p>
+        <p>Masuk Akun</p>
         <form>
           <input type="text" placeholder="Username" />
           <input type="password" placeholder="Password" />
